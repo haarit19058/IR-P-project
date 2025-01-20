@@ -4,15 +4,15 @@ Run the file using following command
 
 python main.py --background-color=#234562 --font-color=#101010 --font-size=13 --rephrase
 
-Enter your name: Haarit Chavda
-Enter your contact number: 9978272882
-Enter your email ID: haarit1905@gmail.com
-Enter your address: Hansnagar,Dhandhuka
-Enter your skills (comma-separated): Python,machineLearning,good at bug bounty, web dev
-Enter your education details:  studued btech in CSE from iit gandhinagar mba from iim ahemdabad  9 cgpa from iit and 9.4 from iim
-Enter your experience details: worked at turing as python developer and microsoft for 2 years as senor developer
-Enter any other details you'd like to include: play chess do running (add somehting more of your liking that would make my likelihood of being selected as software engineer)
-File saved as Resume.pdf
+Enter your name: Haarit Chavda<br>
+Enter your contact number: 9978272882<br>
+Enter your email ID: haarit1905@gmail.com<br>
+Enter your address: Hansnagar,Dhandhuka<br>
+Enter your skills (comma-separated): Python,machineLearning,good at bug bounty, web dev<br>
+Enter your education details:  studued btech in CSE from iit gandhinagar mba from iim ahemdabad  9 cgpa from iit and 9.4 from iim<br>
+Enter your experience details: worked at turing as python developer and microsoft for 2 years as senor developer<br>
+Enter any other details you'd like to include: play chess do running (add somehting more of your liking that would make my likelihood of being selected as software engineer)<br>
+File saved as Resume.pdf<br>
 
 See the generated resume named as Resume.pdf
 

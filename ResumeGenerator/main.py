@@ -129,7 +129,7 @@ def main():
     pdf.cell(200, 10, txt="Skills:", ln=True)
     pdf.set_font('Arial', '', args.font_size)
     pdf.set_text_color(*convertColor(args.font_color))
-    pdf.multi_cell(0, 10, txt=skills, fill=True)
+    pdf.multi_cell(0, 5, txt=skills, fill=True)
 
     # Education
     pdf.ln(10) 
@@ -138,7 +138,7 @@ def main():
     pdf.cell(200, 10, txt="Education:", ln=True)
     pdf.set_font('Arial', '', args.font_size)
     pdf.set_text_color(*convertColor(args.font_color))
-    pdf.multi_cell(0, 10, txt=education, fill=True)
+    pdf.multi_cell(0, 5, txt=education, fill=True)
 
     # Experience
     pdf.ln(10)  # Line break
@@ -147,7 +147,7 @@ def main():
     pdf.cell(200, 10, txt="Experience:", ln=True)
     pdf.set_font('Arial', '', args.font_size)
     pdf.set_text_color(*convertColor(args.font_color))
-    pdf.multi_cell(0, 10, txt=experience, fill=True)
+    pdf.multi_cell(0, 5, txt=experience, fill=True)
 
     # Other details
     if(len(other_details)>0):
@@ -157,7 +157,7 @@ def main():
         pdf.cell(200, 10, txt="Other Details:", ln=True)
         pdf.set_font('Arial', '', args.font_size)
         pdf.set_text_color(*convertColor(args.font_color))
-        pdf.multi_cell(0, 10, txt=other_details, fill=True)
+        pdf.multi_cell(0, 5, txt=other_details, fill=True)
     
     pdf.output('Resume.pdf')
     print("File saved as Resume.pdf")
