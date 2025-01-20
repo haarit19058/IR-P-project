@@ -3,8 +3,8 @@ import os
 from fpdf import FPDF
 import argparse
 from langchain_groq.chat_models import ChatGroq
-import sec
-Groq_Token = sec.key
+import secure
+Groq_Token = secure.key
 
 
 def rephrase(skills,education,experience,other_details):
